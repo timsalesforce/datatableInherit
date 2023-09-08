@@ -1,0 +1,13 @@
+<template>
+    <c-my-data-table
+        key-field="Id"
+        data={accounts}
+        columns={columns}
+        hide-checkbox-column
+        sorted-direction="asc"
+        default-sort-direction="asc"
+        sorted-by="Name"
+        onsort={handleSort}
+    >
+  </c-my-data-table>
+</template>
